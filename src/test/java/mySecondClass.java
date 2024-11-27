@@ -6,6 +6,6 @@ public class mySecondClass {
     public static void main(String[] args) throws InterruptedException {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
-        driver.get("https://google.com");
+        driver.get("https://google.com.mm");
     }
 }
